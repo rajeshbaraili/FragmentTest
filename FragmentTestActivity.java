@@ -30,7 +30,7 @@ public class FragmentTestActivity extends Activity{
         fr.add(R.id.myfragment, myFragment);
         fr.commit();
         
-        btnFragment1.setOnClickListener(btnFragmentOnClickListener);
+        btnFragment.setOnClickListener(btnFragmentOnClickListener);
         btnFragment2.setOnClickListener(btnFragmentOnClickListener);
     }
     
@@ -43,7 +43,7 @@ public class FragmentTestActivity extends Activity{
 			Fragment newFragment;
 			
 			// Create new fragment
-			if(v == btnFragment1){
+			if(v == btnFragment){
 				newFragment = new MyFragment();
 			}else{
 				newFragment = new MyFragment2();
