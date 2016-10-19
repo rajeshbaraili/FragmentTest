@@ -40,13 +40,13 @@ public class FragmentTestActivity extends Activity{
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
-			Fragment newFragment;
+			Fragment neFragment;
 			
 			// Create new fragment
 			if(v == btnFragment){
-				newFragment = new MyFragment();
+				neFragment = new MyFragment();
 			}else{
-				newFragment = new MyFragment2();
+				neFragment = new MyFragment2();
 			}
 			
 			// Create new transaction
